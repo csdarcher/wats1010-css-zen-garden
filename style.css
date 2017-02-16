@@ -11,25 +11,33 @@
 /* basic elements */
 html {
 	margin: 0;
-	padding: 0;
+	padding: 100px;
+	background: url('/backgrounds/washi_@2X.png');
+  background-position: center center;
+  background-size: tile;
 	}
+
+
 body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
-	padding: 0;
+	font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white; 
+	background: #2A3B54;
+	padding: 15px;
+	border-radius: 5%;
+
 	}
 p { 
 	margin-top: 0; 
-	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
+	font: normal 3em "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-right: 350px;
+	color: white;
+	background: #b38600;
+	padding: 5px;
+	padding-left: 15px;
+	border-radius: 15px 35px 15px 35px;
+		
 	}
 a:link { 
 	font-weight: bold; 
@@ -43,70 +51,92 @@ a:visited {
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #b38600;
 	}
+
 abbr {
-	border-bottom: none;
-	}
-
-
-/* specific divs */
-.page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
+	border-bottom: 1px dotted #006666;
 	position: relative;
-	}
-
-.intro { 
-	min-width: 470px;
-	width: 100%;
-	}
-
-header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header {
-	padding-top: 20px;
-	height: 87px;
 }
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia; 
+abbr:hover::after {
+    position: static;
+    display: inline;
+    padding: 5px;
+    content: attr(title);
+}
+
+/* specific divs */
+
+header h1 { 
+	background: #006666; 
+	display: block;;
+	color: white;
+	font-size: 3em;
 	text-align: center;
+	margin-top: -100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	z-index: 1;
+	border-radius: 30px 30px 0px 0px;
+
+	}
+header h2 { 
+	background: #b38600; 
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	height: 75px;
+	margin-top: -45px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 0px 0px 30px 30px;
 	}
 
-.preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
+
+.summary {
+	background: #006666;
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+		}
+
+.summary p {
+	font: 1.1em/2.2 "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background: #006666;
+	color: white;
+	border-radius: 30px 30px 30px 30px;
+	padding-left: 15px;
 	}
+
+.preamble p {
+	padding-left: 350px;
+	padding-right: 350px;
+	margin: 0;
+	}
+
+.explanation p {
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.participation p {
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+
+.benefits p {
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+
+.requirements p {
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
@@ -114,53 +144,53 @@ header {
 
 footer { 
 	text-align: center; 
-	}
+	background: #006666;
+	border-radius: 30px;
+	height: 25px;
+		}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
 
+footer a:hover {
+	font-size: 125%;
+}
+
 .sidebar {
-	margin-left: 600px; 
+	margin-right: 115px; 
+	margin-top: 620px; 
 	position: absolute; 
 	top: 0; 
 	right: 0;
 	}
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
+	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background: #006666; 
 	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
+	margin-top: 200px; 
+	margin-right: -75px;
+	width: 175px; 
+	height: 580px;
+	border-radius: 30px 30px 30px 30px;
 	}
 .sidebar h3.select { 
-	background: transparent url(h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
 	width: 97px; 
 	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+	font-size: 1.3em;
 	}
 .sidebar h3.archives { 
-	background: transparent url(h5.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
 	width:57px; 
 	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+	font-size: 1.3em;
 	}
 .sidebar h3.resources { 
-	background: transparent url(h6.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
 	width:63px; 
 	height: 10px; 
-
-	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
+	font-size: 1.3em;
 	}
 
 
@@ -170,12 +200,14 @@ footer a:link, footer a:visited {
 	}
 .sidebar li {
 	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
-	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
 	list-style-type: none;
 	}
+
+.sidebar li a:hover {
+	font-size: 125%;
+}
 .sidebar li a:link {
 	color: #988F5E;
 	}
@@ -185,9 +217,8 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
 	position: absolute; 
-	top: 40px; 
+	top: 75px; 
 	right: 0; 
 	width: 148px; 
 	height: 110px;
