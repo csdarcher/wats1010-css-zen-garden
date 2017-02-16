@@ -12,7 +12,7 @@
 html {
 	margin: 0;
 	padding: 100px;
-	background: url('/backgrounds/washi_@2X.png');
+	background: url('backgrounds/washi_@2X.png');
   background-position: center center;
   background-size: tile;
 	}
@@ -176,21 +176,14 @@ footer a:hover {
 	}
 .sidebar h3.select { 
 	margin: 25px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
 	font-size: 1.3em;
 	}
 .sidebar h3.archives { 
 	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
 	font-size: 1.3em;
 	}
 .sidebar h3.resources { 
 	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-	white-space: nowrap;
 	font-size: 1.3em;
 	}
 
