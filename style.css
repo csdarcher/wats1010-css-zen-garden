@@ -24,11 +24,12 @@ body {
 	background: #2A3B54;
 	padding: 15px;
 	border-radius: 5%;
-
 	}
+
 p { 
 	margin-top: 0; 
 	}
+
 h3 { 
 	font: normal 3em "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	margin-right: 350px;
@@ -37,18 +38,20 @@ h3 {
 	padding: 5px;
 	padding-left: 15px;
 	border-radius: 15px 35px 15px 35px;
-		
 	}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #B7A5DF;
 	}
+
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #D4CDDC;
 	}
+
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: #b38600;
@@ -64,8 +67,8 @@ abbr:hover::after {
     display: inline;
     padding: 5px;
     content: attr(title);
-		color: #ff6666;
-		style: italic;
+	  color: #ff6666;
+	  font-style: italic;
 }
 
 /* specific divs */
@@ -132,13 +135,11 @@ header h2 {
 	padding-right: 350px;
 }
 
-
 .requirements p {
 	padding-left: 350px;
 	padding-right: 350px;
 }
 
-}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
@@ -149,7 +150,7 @@ footer {
 	background: #006666;
 	border-radius: 30px;
 	height: 25px;
-		}
+	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
@@ -165,6 +166,7 @@ footer a:hover {
 	top: 0; 
 	right: 0;
 	}
+
 .sidebar .wrapper { 
 	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	background: #006666; 
@@ -175,19 +177,21 @@ footer a:hover {
 	height: 610px;
 	border-radius: 30px 30px 30px 30px;
 	}
+
 .sidebar h3.select { 
 	margin: 25px 0 5px 0; 
 	font-size: 1.3em;
 	}
+
 .sidebar h3.archives { 
 	margin: 25px 0 5px 0; 
 	font-size: 1.3em;
 	}
+
 .sidebar h3.resources { 
 	margin: 25px 0 5px 0; 
 	font-size: 1.3em;
 	}
-
 
 .sidebar ul {
 	margin: 0;
@@ -203,13 +207,14 @@ footer a:hover {
 .sidebar li a:hover {
 	font-size: 125%;
 }
+
 .sidebar li a:link {
 	color: #988F5E;
 	}
+
 .sidebar li a:visited {
 	color: #B3AE94;
 	}
-
 
 .extra1 {
 	position: absolute; 
